@@ -1,0 +1,94 @@
+body {
+	margin: 0px;
+    padding: 0px;
+    font-family: 'Teko', sans-serif;
+    background-image: radial-gradient(rgb(77, 46, 61),white);
+}
+h1{
+    font-size: 70px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: darkgrey;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+.First-part{
+    margin-bottom: 60px;
+}
+.Name-color1{
+    color: rgb(46, 101, 110);
+}
+.Name-cl2{
+    color: gold;
+}
+.Name-cl3{
+    color: indigo;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 9%;
+}
+.half img{
+    width: 100%;
+}
+.link-button{
+    background-image: linear-gradient(rgb(95, 15, 15), rgb(255, 93, 29));
+    text-decoration: none;
+    color: ivory;
+    padding: 10px;
+}
+.logo{
+    display: block;
+	float: left;
+	height: 30px;
+	margin: 0 14px 0 0;
+	padding: 0;
+	width: 304px;
+}
+.menu{
+    display: block;
+	float: left;
+	height: 60px;
+	margin: 0 24px 0 0;
+	padding: 0;
+	width: 204px;
+}
+.menu1{
+   left: 60px;
+}
+.Mission{
+    padding-top: 5%;
+    margin-left: 3%;
+    padding-block: 4%;
+    margin: 20px;
+}
+.sis-projects{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.tool-bar{
+    background-color: rgb(172, 170, 170);
+    height: 70px;
+    text-align: right;
+}
+.color{
+    color: sandybrown;
+}
+.sec1{
+    height: 800px;
+    margin: 2px;
+    border: 1px solid transparent;
+}
+.one3{
+    float: left;
+    width: 20%;
+}

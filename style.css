@@ -11,6 +11,9 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    font-size: 30px;
+}
 p{
     color: darkgrey;
 }
@@ -90,14 +93,14 @@ a {
 }
 .one3{
     float: left;
-    width: 25%;
-    margin: 2%;
-    padding-left: 4%;
+    width: 21%;
+    margin: 3%;
+    padding-left: 2%;
 }
 .box{
     box-shadow: 10px 10px 40px gray;
     border-radius: 7px;
-    height: 500px;
+    height: 420px;
     background-position: right;
     padding: 2%;
 
@@ -114,4 +117,23 @@ a {
     background-image: linear-gradient(rgb(107, 102, 110), rgb(117, 116, 119));
     background-repeat: no-repeat;
     background-position: right;
+    margin: 22px;
+    padding: 20px;
 }
+.forth-sec{
+    background-image: url(personal-website-main/shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    image-resolution: ;
+    border-radius: 30px;
+    height: 300px;
+    margin: 25px;
+}
+.forth-sec-div{
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+

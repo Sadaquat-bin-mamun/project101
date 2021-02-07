@@ -2,7 +2,6 @@ body {
 	margin: 0px;
     padding: 0px;
     font-family: 'Teko', sans-serif;
-    background-image: radial-gradient(rgb(77, 46, 61),white);
 }
 h1{
     font-size: 70px;
@@ -20,6 +19,24 @@ p{
 a {
 	text-decoration: none;
 	outline: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    background: none;
+    overflow: hidden;
+}
+ul li{
+    float: right;
+    list-style-type: none;
+}
+ul li a{
+    color: darkred;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 11px;    
+    display: inline-block;
+
 }
 .First-part{
     margin-bottom: 60px;
@@ -56,17 +73,6 @@ a {
 	padding: 0;
 	width: 304px;
 }
-.menu{
-    display: block;
-	float: left;
-	height: 60px;
-	margin: 0 24px 0 0;
-	padding: 0;
-	width: 204px;
-}
-.menu1{
-   left: 60px;
-}
 .Mission{
     padding-top: 5%;
     margin-left: 3%;
@@ -77,11 +83,6 @@ a {
     text-align: center;
     align-items: center;
     margin: auto;
-}
-.tool-bar{
-    background-color: rgb(172, 170, 170);
-    height: 70px;
-    text-align: right;
 }
 .color{
     color: sandybrown;
@@ -109,22 +110,25 @@ a {
     border-radius: 8px;
     width: 100%;
 }
+.first-sec{
+    background-image: radial-gradient(rgb(146, 125, 155), gray);
+    height: 800px;
+    background-position: center;
+}
 .second-sec{
-   background-image: linear-gradient(green, red);
+   background-image: linear-gradient(rgb(156, 202, 156),rgb(236, 236, 173));
    background-position: right;
+   height: 800px;
 }
 .third-sec{
     background-image: linear-gradient(rgb(107, 102, 110), rgb(117, 116, 119));
-    background-repeat: no-repeat;
     background-position: right;
-    margin: 22px;
-    padding: 20px;
+    height: 800px;
 }
 .forth-sec{
     background-image: url(personal-website-main/shapes/Group_33094_1.png);
     background-repeat: no-repeat;
     background-position: center;
-    image-resolution: ;
     border-radius: 30px;
     height: 300px;
     margin: 25px;

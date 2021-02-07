@@ -60,10 +60,10 @@ ul li a{
     width: 100%;
 }
 .link-button{
-    background-image: linear-gradient(rgb(95, 15, 15), rgb(255, 93, 29));
+    background-image: linear-gradient(rgb(146, 62, 62), rgb(109, 25, 81));
     text-decoration: none;
     color: ivory;
-    padding: 10px;
+    padding: 20px;
 }
 .logo{
     display: block;
@@ -103,7 +103,7 @@ ul li a{
     border-radius: 7px;
     height: 420px;
     background-position: right;
-    padding: 2%;
+    padding: 3%;
 
 }
 .box-img{
@@ -121,7 +121,7 @@ ul li a{
    height: 800px;
 }
 .third-sec{
-    background-image: linear-gradient(rgb(107, 102, 110), rgb(117, 116, 119));
+    background-image: linear-gradient(rgb(209, 195, 195), rgb(196, 187, 187));
     background-position: right;
     height: 800px;
 }
@@ -132,12 +132,15 @@ ul li a{
     border-radius: 30px;
     height: 300px;
     margin: 25px;
+    width: 60%;
 }
 .forth-sec-div{
     text-align: center;
     align-items: center;
     float: left;
-    margin-left: 20px;
-    padding-left: 15px;
+    margin: 5%;
+    padding: 10%;
 }
-
+.half-list{
+    list-style: decimal;
+}

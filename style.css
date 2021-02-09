@@ -66,12 +66,13 @@ ul li a{
     width: 100%;
 }
 .link-button{
-    background-image: linear-gradient(rgb(247, 131, 64), rgb(42, 141, 148));
+    background-image: linear-gradient(rgb(247, 131, 64),rgb(88, 48, 2));
     border: 2px solid rgb(175, 86, 98);
     border-radius: 20px;
     text-decoration: none;
     color: ivory;
     padding: 20px;
+    width: 300px;
 }
 .link-button:hover{
     cursor: pointer;
@@ -124,12 +125,12 @@ ul li a{
     width: 100%;
 }
 .first-sec{
-    background-image: linear-gradient(rgb(236, 236, 173), white);
+    background-image: linear-gradient(rgb(252, 252, 167), white);
     height: 800px;
     background-position: center;
 }
 .second-sec{
-   background-image: linear-gradient( white,rgb(236, 236, 173));
+   background-image: linear-gradient( white,rgb(252, 252, 167));
    background-position: right;
    height: 800px;
 }

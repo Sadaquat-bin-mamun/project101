@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(252, 252, 167);
 	margin: 0px;
     padding: 0px;
     font-family: 'Teko', sans-serif;
@@ -6,6 +7,7 @@ body {
 h1{
     font-size: 70px;
     font-family: 'Yusei Magic', sans-serif;
+    color: rgb(4, 4, 65);
 }
 h2{
     font-size: 40px;
@@ -111,17 +113,17 @@ ul li a{
     width: 100%;
 }
 .first-sec{
-    background-image: radial-gradient(rgb(146, 125, 155), gray);
+    background-image: radial-gradient(rgb(236, 236, 173), white);
     height: 800px;
     background-position: center;
 }
 .second-sec{
-   background-image: linear-gradient(rgb(156, 202, 156),rgb(236, 236, 173));
+   background-image: linear-gradient( white,rgb(236, 236, 173));
    background-position: right;
    height: 800px;
 }
 .third-sec{
-    background-image: linear-gradient(rgb(209, 195, 195), rgb(196, 187, 187));
+    background-image: linear-gradient(rgb(196, 187, 187),rgb(209, 195, 195));
     background-position: right;
     height: 800px;
 }
@@ -129,18 +131,43 @@ ul li a{
     background-image: url(personal-website-main/shapes/Group_33094_1.png);
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 30px;
-    height: 300px;
-    margin: 25px;
-    width: 60%;
+    background-size: 700px;
+    border-radius: 50px;
+    height: 450px;
+    image-resolution: 20px;
+    image-rendering: ;
+    width: 100%;
 }
-.forth-sec-div{
+.forth-sec-div1{
+    /* border: 2px solid red; */
     text-align: center;
-    align-items: center;
     float: left;
-    margin: 5%;
-    padding: 10%;
+    float: left;
+    margin-left: 25%;
+    padding: 11%;
+    height: 200px;
+}
+.forth-sec-div2{
+    /* border: 2px solid red; */
+    text-align: center;
+    float: left;
+    float: left;
+    margin-left: 3%;
+    padding: 15% 3%;
+    height: 200px;
 }
 .half-list{
     list-style: decimal;
+}
+.foot{
+    text-align: center;
+    /* align-items: center; */
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
+    color: floralwhite;
+    background-image: linear-gradient(rgb(59, 12, 12), rgb(46, 46, 22));
+    height: 300px;
+}
+.foot img{
+    width: 60px;
 }

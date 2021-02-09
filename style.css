@@ -22,14 +22,18 @@ a {
 	text-decoration: none;
 	outline: none;
 }
+
+
 ul{
-    margin: 0px;
+    /* border: 2px solid red; */
+    margin-left: 80%;
     padding: 0px;
     background: none;
     overflow: hidden;
 }
 ul li{
-    float: right;
+    /* border: 2px solid red; */
+    display: inline-block;
     list-style-type: none;
 }
 ul li a{
@@ -62,10 +66,17 @@ ul li a{
     width: 100%;
 }
 .link-button{
-    background-image: linear-gradient(rgb(146, 62, 62), rgb(109, 25, 81));
+    background-image: linear-gradient(rgb(247, 131, 64), rgb(42, 141, 148));
+    border: 2px solid rgb(175, 86, 98);
+    border-radius: 20px;
     text-decoration: none;
     color: ivory;
     padding: 20px;
+}
+.link-button:hover{
+    cursor: pointer;
+    color: yellow;
+    background-color: darkgreen;
 }
 .logo{
     display: block;
@@ -113,7 +124,7 @@ ul li a{
     width: 100%;
 }
 .first-sec{
-    background-image: radial-gradient(rgb(236, 236, 173), white);
+    background-image: linear-gradient(rgb(236, 236, 173), white);
     height: 800px;
     background-position: center;
 }
@@ -135,7 +146,6 @@ ul li a{
     border-radius: 50px;
     height: 450px;
     image-resolution: 20px;
-    image-rendering: ;
     width: 100%;
 }
 .forth-sec-div1{
@@ -158,6 +168,10 @@ ul li a{
 .half-list{
     list-style: decimal;
 }
+.fifth-sec{
+    height: 800px;
+    background-image: linear-gradient(rgb(252, 252, 167), white);
+}
 .foot{
     font-size: 30px;
     font-family: 'Teko', sans-serif;
@@ -169,10 +183,15 @@ ul li a{
     text-align: center;
     /* border: 2px solid red; */
 }
+
 .foot a{
     color: indianred;
   
 }
 .foot img{
     width: 60px;
+}
+.client{
+  text-align: center;
+
 }

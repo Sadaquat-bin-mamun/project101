@@ -198,6 +198,9 @@ ul li a:hover{
 .foot img{
     width: 60px;
 }
+.foot img:hover{
+    color: tomato;
+}
 .client{
   text-align: center;
 

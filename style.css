@@ -44,6 +44,9 @@ ul li a{
     display: inline-block;
 
 }
+ul li a:hover{
+    color:tomato;
+}
 .First-part{
     margin-bottom: 60px;
 }
@@ -113,12 +116,15 @@ ul li a{
     padding-left: 2%;
 }
 .box{
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 40px rgb(134, 134, 211);
     border-radius: 7px;
     height: 420px;
     background-position: right;
     padding: 3%;
 
+}
+.box:hover{
+    box-shadow: 10px 10px 40px red;
 }
 .box-img{
     border-radius: 8px;
